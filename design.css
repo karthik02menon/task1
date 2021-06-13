@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(253, 253, 182);
+    border: solid black;
+}
+#watch{
+    border: black;
+    margin-top: 36px;
+    margin-left: 20px;
+    font-size: x-large;
+}
+.hm{
+    margin-right: 100px;
+}
+#moves{
+    display: inline;
+    font-size: x-large;
+    margin-left: 1160px;
+    margin-right: 160px;
+    padding-bottom: 50px;
+}
+#cont{
+    text-align: center;
+    display: inline;
+}
+.bottom{
+    display: grid;
+    grid-template-columns:  repeat(5,45px);
+    grid-template-rows: repeat(5,45px);
+    grid-gap:5px ;
+    justify-content: center;
+    align-content: center;
+ }
+#div1,#div5,#div9,#div13,#div17,#div21{ background-color: aqua;border:solid black;}
+#div2,#div6,#div10,#div14,#div18,#div22{ background-color: red;border:solid black;}
+#div3,#div7,#div11,#div15,#div19,#div23{ background-color: yellow;border:solid black;}
+#div4,#div8,#div12,#div16,#div20,#div24{ background-color: green;border:solid black;}
+#div2,#div6,#div10,#div3,#div7,#div22,#div19,#div23,#div4{border: solid black 5px;}
+#div25{background-color: beige;border: solid black;}
+#d1,#d5,#d9{background-color: aqua;border:solid black 3px;}
+#d2,#d6{background-color: red;border:solid black 3px;}
+#d3,#d7{background-color: green;border:solid black 3px;}
+#d4,#d8{background-color: yellow;border:solid black 3px;}
+
+button{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    cursor: grab;
+    justify-content: center;
+    align-content: center;
+}
+button:hover{
+    background-color: gray;
+}
+.start{
+    margin-left: 480px;
+}
+.top{
+    display: grid;
+    grid-template-columns:  repeat(3,25px);
+    grid-template-rows: repeat(3,25px);
+    grid-gap: 5px ;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 50px;
+    
+}

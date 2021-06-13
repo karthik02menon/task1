@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>COLOR TILES</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <h1 style="text-align: center;">COLOR TILES</h1>
+    <div style="clear: both;">
+    <h3 class="time" style="float: left;">Time:</h3>
+    <h3 class="hm" style="float: right;">Moves:</h3>
+    </div>
+    <div id="watch">00:00:00</div>
+    <div id="moves">0</div>
+    <div class="top">
+        <div id="d1" style="color: aqua;">1</div>
+        <div id="d2" style="color: red;">2</div> 
+        <div id="d3" style="color: green;">3</div>
+        <div id="d4" style="color: yellow;">4</div>
+        <div id="d5" style="color: aqua;">5</div>
+        <div id="d6" style="color: red;">6</div>
+        <div id="d7" style="color: green;">7</div>
+        <div id="d8" style="color: yellow;">8</div>
+        <div id="d9" style="color: aqua;">9</div>
+    </div>
+    <div class="bottom">
+        <div id="div1" onclick="swapc1()" style="cursor:grab; color:aqua;">1</div>
+        <div id="div5" style="cursor:grab; color: aqua;">5</div>
+        <div id="div9" style="cursor:grab; color: aqua;">9</div>
+        <div id="div13" style="cursor:grab; color: aqua;">13</div>
+        <div id="div17" style="cursor:grab; color: aqua;">17</div>
+        <div id="div21" style="cursor:grab; color: aqua;">21</div>
+        <div id="div2" style="cursor:grab; color: red;">2</div>
+        <div id="div6" style="cursor:grab; color: red;">6</div>
+        <div id="div10" style="cursor:grab; color: red;">10</div>
+        <div id="div14" style="cursor:grab; color: red;">14</div>
+        <div id="div18" style="cursor:grab; color: red;">18</div>
+        <div id="div22" style="cursor:grab; color: red;">22</div>
+        <div id="div3" style="cursor:grab; color: yellow;">3</div>
+        <div id="div7" style="cursor:grab; color: yellow;">7</div>
+        <div id="div11" style="cursor:grab; color: yellow;">11</div>
+        <div id="div15" style="cursor:grab; color: yellow;">15</div>
+        <div id="div19" style="cursor:grab; color: yellow;">19</div>
+        <div id="div23" style="cursor:grab; color: yellow;">23</div>
+        <div id="div4" style="cursor:grab; color: green;">4</div>
+        <div id="div8" style="cursor:grab; color: green;">8</div>
+        <div id="div12" style="cursor:grab; color: green;">12</div>
+        <div id="div16" style="cursor:grab; color: green;">16</div>
+        <div id="div20" style="cursor:grab; color: green;">20</div>
+        <div id="div24" style="cursor:grab; color: green;">24</div>
+        <div id="div25" style="cursor:grab; color: beige;">25</div>  
+    </div>  
+        <br>
+        <div id="cont">
+        <button class="start" type="button" onclick="pickcol();pickcol2();start()">Start</button>
+        <button class="reset" onclick="resett()">Reset</button>
+        <button class="stop" onclick="stopt()">Stop</button>
+        </div>
+        <script src="js.js"></script>
+ 
+</body>
+</html>
